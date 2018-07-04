@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/small_spacing"
+        android:layout_marginRight="@dimen/small_spacing"
+        android:scrollbars="vertical"
+        tools:layoutManager="android.support.v7.widget.GridLayoutManager"
+        tools:listitem="@layout/movie_list_item"
+        tools:spanCount="2">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!-- Error view for the RecyclerView -->
+    <RelativeLayout
+        android:id="@+id/error_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/iv_error_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:src="@drawable/no_internet" />
+
+        <TextView
+            android:id="@+id/tv_error_message_title"
+            style="@style/main_error_message_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_error_image"
+            android:layout_centerHorizontal="true"
+            tools:text="@string/error_message_no_internet_title" />
+
+        <TextView
+            android:id="@+id/tv_error_message_subtitle"
+            style="@style/details_error_message_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_error_message_title"
+            android:layout_centerHorizontal="true"
+            tools:text="@string/error_message_no_internet_subtitle" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:layout_width="@dimen/pb_loading_indicator_size"
+        android:layout_height="@dimen/pb_loading_indicator_size"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

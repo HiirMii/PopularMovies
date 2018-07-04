@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Style for error message in main activity -->
+    <style name="main_error_message_display">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:padding">@dimen/default_spacing</item>
+    </style>
+
+    <!-- Style for error message in details activity -->
+    <style name="details_error_message_display">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
+        <item name="android:padding">@dimen/default_spacing</item>
+    </style>
+
+    <!-- Style for title text in details activity. -->
+    <style name="tv_title">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">@dimen/default_spacing</item>
+        <item name="android:layout_marginRight">@dimen/default_spacing</item>
+    </style>
+
+    <!-- Style for movie poster in details activity. -->
+    <style name="iv_movie_poster">
+        <item name="android:layout_margin">@dimen/default_spacing</item>
+    </style>
+
+    <!-- Style for label text in details activity. -->
+    <style name="tv_label">
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
+        <item name="android:layout_marginTop">@dimen/default_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/small_spacing</item>
+    </style>
+
+    <!-- Style for section label in details activity -->
+    <style name="tv_section_label">
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
+        <item name="android:layout_marginLeft">@dimen/default_spacing</item>
+    </style>
+
+    <!-- Style for data text in details activity. -->
+    <style name="tv_data">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:layout_marginTop">@dimen/small_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/medium_spacing</item>
+    </style>
+
+    <!-- Style for overview text in details activity -->
+    <style name="tv_overview">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
+        <item name="android:layout_margin">@dimen/default_spacing</item>
+    </style>
+
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:colorControlActivated">@color/colorSecondaryLight</item>
+        <item name="android:colorControlNormal">@color/colorPrimaryLight</item>
+    </style>
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="details_activity_label">Movie Details</string>
+
+    <!-- Image descriptions -->
+    <string name="poster_description">Movie poster image</string>
+    <string name="backdrop_description">Image related to the movie</string>
+    <string name="trailer_image_description">Image related to the movie trailer</string>
+
+    <!-- Details labels -->
+    <string name="tv_release_date_label">Release Date:</string>
+    <string name="tv_rating_label">Movies Rating:</string>
+    <string name="tv_trailers_label">Trailers</string>
+    <string name="tv_reviews_label">Reviews</string>
+
+    <!-- String placeholders -->
+    <string name="tv_title">Shawshank Redemption</string>
+    <string name="tv_release_date_data">Sep 23, 1994</string>
+    <string name="tv_rating_data">8.5/10</string>
+    <string name="tv_overview">Framed in 1940s for the double murder of his wife and her lover,
+        upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his
+    accounting skills to work for an amoral warden. During his long stretch on prison, Dufresne
+    comes to be admired by the other inmates &#8212; including an older prisoner named Red &#8212;
+    for his integrity and unquenchable sense of hope.</string>
+
+    <!-- Menu items -->
+    <string name="action_popular">Most Popular Movies</string>
+    <string name="action_top_rated">Top Rated Movies</string>
+    <string name="action_favourites">Favourite Movies</string>
+    <string name="action_share">Share</string>
+
+    <!-- Error messages shown if  the is no data to display. -->
+    <string name="error_message_no_internet_title">An error has occurred.</string>
+    <string name="error_message_no_internet_subtitle">Please check your internet connection.</string>
+    <string name="error_message_no_trailers">No trailers available.</string>
+    <string name="error_message_no_reviews">No reviews available.</string>
+    <string name="error_message_no_favourites_title">You have no favourite movies yet&#8230;</string>
+    <string name="error_message_no_favourites_subtitle">Get started by adding some to the list.</string>
+
+    <!-- Toast messages -->
+    <string name="movie_added">has been added to your Favourite Movies</string>
+    <string name="movie_removed">has been removed from your Favourite Movies</string>
+    <string name="add_movie_error_beginning">Failed adding</string>
+    <string name="add_movie_error_ending">to your Favourite Movies</string>
+    <string name="remove_movie_error_beginning">Failed removing</string>
+    <string name="remove_movie_error_ending"> from your Favourite Movies</string>
+
+    <!-- Share email message -->
+    <string name="email_title">Check this trailer!!!</string>
+    <string name="email_text">I just watched that trailer.\nThis could be a good movie.\t</string>
+    <string name="email_error">Unable to send email.</string>
+</resources>
